@@ -59,9 +59,7 @@ export default function App({
         <Component {...pageProps} />
       )}
 
-      {process.env.NEXT_PUBLIC_SANITY_VISUAL_EDITING === 'true' ? (
         <SanityVisualEditing />
-      ) : null}
     </>
   )
 }
